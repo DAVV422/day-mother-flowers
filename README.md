@@ -1,4 +1,4 @@
-# Sunflower Animation
+# Day Mother Flowers
 
 This project showcases an elegant sunflower animation crafted using HTML, SCSS, and JavaScript.
 
