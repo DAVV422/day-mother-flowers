@@ -53,7 +53,7 @@ h2 {
   position: absolute;
   z-index: 1;
   width: 100%;
-  bottom: -2%;
+  bottom: -4%;
   transform: translate(0, 100vh);
   animation: move 1s 2.5s forwards;
 }
