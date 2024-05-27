@@ -17,7 +17,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
@@ -76,7 +76,7 @@ h2 {
   width: 80vmin;
   height: 80vmin;
   position: absolute;
-  bottom: 10vh;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
