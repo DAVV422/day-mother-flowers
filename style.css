@@ -1,17 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script");
+
+
+ html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+/*
 html {
-  height: 200vh;
   background: radial-gradient(ellipse at center, #dbb800 0%, #688acc 50%);
   cursor: pointer;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+} */
+.container {
+  height: 200vh;
+  background: radial-gradient(ellipse at center, #dbb800 0%, #688acc 50%);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+body {
   height: 100vh;
   overflow: hidden;
-  border-bottom: 10vh #339545 solid;
+  /* border-bottom: 10vh #339545 solid; */
   box-sizing: border-box;
   position: relative;
+}
+
+.box {
+  height: 10vh;
+  width: 100%;
+  background-color: #339545;
+  position: absolute;
+  bottom: 0;
 }
 
 h1 {
@@ -30,15 +60,21 @@ h1 {
 
 h2 {
   text-align: center;
-  color: white;  
+  color: white;
   font-family: 'Oleo Script', cursive;
   font-size: 40px;
   position: absolute;
   z-index: 1;
   width: 100%;
-  bottom: -15%;
+  bottom: -2%;
   transform: translate(0, 100vh);
   animation: move 1s 2.5s forwards;
+}
+
+@media (max-width: 1250px) {
+  .container {    
+    background: radial-gradient(circle at 50% 50%, #dbb800 0%, #688acc 50%);
+  }
 }
 
 @keyframes move {
@@ -53,7 +89,7 @@ h2 {
   width: 80vmin;
   height: 80vmin;
   position: absolute;
-  bottom: 0;
+  bottom: 10vh;
   left: 50%;
   transform: translate(-50%, 0%);
 }
