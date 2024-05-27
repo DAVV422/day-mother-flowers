@@ -7,7 +7,6 @@ This project showcases an elegant sunflower animation crafted using HTML, SCSS, 
   - [Prerequisites](#prerequisites)
   - [Installation Guide](#installation-guide)  
   - [Modification Name](#modification-name)
-- [Questions and Support](#questions-and-support)
 
 ## Getting Started
 
@@ -17,14 +16,13 @@ No necesitas ningún pre-requisito
 ### Installation Guide
 1. **Clone the Repository:**
    ```bash
-   git clone <repositorio>
+   git clone https://github.com/CDS-Community/day-mother-flowers.git
 
 2. Navigate to the project directory.
    ```bash
    cd day-mother-flowers
    
- # Modification Name
-     To compile the SCSS file to CSS, follow these steps.
+ # Add Name     
 1. Abre el archivo index.html en tu editor de código.
 2. Modifica la siguiente línea de código:
      ```bash
@@ -32,10 +30,6 @@ No necesitas ningún pre-requisito
 
 ## Origen
 Repositorio Original: https://github.com/sreyounpann/HappyAnniversaryFlower.git
-
-## Questions and Support
-If you have any questions or encounter issues, feel free to reach out to me on Instagram [yeowdoingood](https://www.instagram.com/yeowdoingood/).
-    Feel free to copy and paste this into your [README file](README.md)!
 
 
 
